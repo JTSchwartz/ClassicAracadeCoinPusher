@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: a2ac0cdb42f319c42b01a732e3e1245a
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - coinPrefab: {fileID: 5220996343348146233, guid: 062e616de97f3db449992da3c4e2b1d8,
+      type: 3}
+  - playerCoinPrefab: {fileID: 4316552998353232347, guid: 44874fdd8b478af4493e4706f430e2e0,
+      type: 3}
+  - scoreBoard: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
