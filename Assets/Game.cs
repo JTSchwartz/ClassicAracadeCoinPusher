@@ -5,7 +5,7 @@ public class Game : MonoBehaviour {
 	public GameObject coinPrefab;
 	public Slider playerControls;
 	public Text scoreBoard;
-	private int _coinCount = 750;
+	private const int CoinCount = 750;
 	private int _score = 0;
 
 	void IncreaseScore() {
@@ -15,7 +15,7 @@ public class Game : MonoBehaviour {
 	void Start() {
 		scoreBoard.text = "Score: 0";
 
-		for (int i = 0; i < _coinCount; i++) {
+		for (int i = 0; i < CoinCount; i++) {
 			Instantiate(coinPrefab,
 						new Vector3(Random.Range(-9.5f, 9.5f), 5, Random.Range(-4.5f, 5.5f)),
 						Quaternion.Euler(new Vector3(0, 0, 0)));

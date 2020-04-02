@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 2481045016224527539}
   - component: {fileID: 1322802881539410437}
   m_Layer: 0
-  m_Name: GravityCoin
+  m_Name: Coin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -117,7 +117,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5220996343348146233}
-  m_Material: {fileID: 13400000, guid: 5ee55d381196b2e44b6f03d4a8177450, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
